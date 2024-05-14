@@ -14,11 +14,11 @@ namespace Proiect_atestat_info
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
+                if (disposing && (components != null))
+                {
+                    components.Dispose();
+                }
+                base.Dispose(disposing);         
         }
 
         #region Windows Form Designer generated code
@@ -29,54 +29,52 @@ namespace Proiect_atestat_info
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.poza = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.poza)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(128, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(552, 349);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(27, 406);
+            this.button1.Location = new System.Drawing.Point(12, 415);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(128, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Inapoi";
+            this.button1.Text = "Imaginea anterioara";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(694, 418);
+            this.button2.Location = new System.Drawing.Point(666, 415);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(122, 23);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Inainte";
+            this.button2.Text = "Imaginea urmatoare";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // poza
+            // 
+            this.poza.Location = new System.Drawing.Point(12, 12);
+            this.poza.Name = "poza";
+            this.poza.Size = new System.Drawing.Size(776, 397);
+            this.poza.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.poza.TabIndex = 2;
+            this.poza.TabStop = false;
             // 
             // Poze
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(713, 460);
+            this.Controls.Add(this.poza);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Poze";
             this.Text = "Poze";
-            this.Load += new System.EventHandler(this.Poze_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.poza)).EndInit();
             this.ResumeLayout(false);
 
         }

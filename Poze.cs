@@ -7,44 +7,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Proiect_atestat_info
 {
-    public partial class Poze : Form
-    {
-        public Poze()
-        {
-            InitializeComponent();
-        }
+  
     namespace poze
     {
         public partial class Poze : Form
         {
-            String lista_poze;
-            int crt, nr_poze;
+            string[] lista_poze;
+            int cnt , nr_poze;
             public Poze()
             {
                 InitializeComponent();
-                lista_poze = Directory.GetFiles(Directory.GetCurentDirectory() + @"poze");
-                lista_poze = lista_poze.Length;
-                crt = 0;
-                poza.Load(lista_poze[crt]);
+                lista_poze = Directory.GetFiles(Directory.GetCurentDirectory() + @"Poze");
+                nr_poze = lista_poze.Length;
+                cnt = 0;
+                poza.Load(lista_poze[cnt]);
             }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (crt > 0) crt--;
-            else crt = 0;
-            poza.Load(lista_poze[crt]);
+            if (cnt > 0) cnt--;
+            else cnt = 0;
+            poza.Load(lista_poze[cnt]);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (crt < nr_poze - 1) crt++;
-            else crt = 0;
-            poza.Load(lista_poze[crt]);
+            if (cnt < nr_poze - 1) cnt++;
+            else cnt = 0;
+            poza.Load(lista_poze[cnt]);
         }
+
     }
 }
+
+

@@ -117,23 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="membre_superioare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\membre_superioare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ACDC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACDC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="230_Rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\230_Rock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="thebeatles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\thebeatles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="zeppelin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zeppelin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>În timp ce muzica rock a încântat milioane de ascultători de-a lungul decadelor, a avut și un profund impact asupra societății și culturii. Recepția și impactul genului rock în lume sunt complexe și strâns legate de contextul istoric și social al diferitelor ere în care a prosperat.
+
+Anii ’50 și ’60 – Perioada de răscruce: Debutul rock and roll-ului în anii ’50 a fost adesea văzut ca o reacție la rigiditatea și conformitatea postbelică. Rock-ul a fost recepționat ca o formă de rebeliune, în special de tineret, care a văzut în el un mijloc de a-și exprima nemulțumirile față de normele și așteptările societății.
+Anii ’70 – Era experimentării: Cu apariția subgenurilor rock, muzica a început să abordeze teme sociale și politice mai profunde. De la critica războiului în Vietnam la mișcarea pentru drepturile civile, rock-ul a devenit un vehicul puternic pentru comentariul social.
+Anii ’80 – Mainstream și contracultură: Pe măsură ce rock-ul a devenit mai comercial, s-a divizat în două curente: rock-ul mainstream și rock-ul alternativ. În timp ce mainstream-ul celebra hedonismul și extravaganța, scena alternativă a explorat problemele societății, de la consumism la drepturile LGBT.
+Anii ’90 și 2000 – Diversificare și globalizare: Având la bază tehnologia și internetul, rock-ul a devenit global. Subgenurile s-au multiplicat, iar mesajele rock-ului au început să reflecte preocupările unei audiențe mondiale, abordând teme precum globalizarea, drepturile omului și schimbările climatice.
+Impactul asupra modului de viață: Rock-ul nu a influențat doar peisajul muzical, ci și modul în care oamenii se îmbracă, vorbesc și se comportă. Moda rock, atitudinea „rock’n’roll” și stilul de viață au fost adoptate în întreaga lume.
+Reacția societății: În timp ce mulți au celebrat și adoptat rock-ul, alții l-au văzut ca pe o amenințare la adresa valorilor tradiționale. De-a lungul anilor, rock-ul a fost subiectul multor controverse, de la acuzații de satanism la critici privind conținutul liric.
+Educație și schimbare: Numeroase instituții educaționale au încorporat studiul muzicii rock în curriculă, recunoscând importanța sa culturală și istorică. Acest lucru a ajutat la crearea unei aprecieri mai profunde a genului și a impactului său asupra societății.
+Impactul social al muzicii rock este imens. A fost și continuă să fie un reflector asupra schimbărilor societății, un instrument de protest și expresie și un factor unificator pentru oameni din întreaga lume. Acest gen muzical nu numai că a influențat cultura populară, dar a și schimbat modul în care văzăm și înțelegem lumea.
+</value>
   </data>
 </root>
